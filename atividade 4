@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    
+real numero1
+real numero2
+real numero3
+
+escreva("digite o primeiro valor: ")
+leia(numero1)
+
+
+escreva("digite o segundo valor: ")
+leia(numero2)
+
+
+escreva("digite o terceiro valor: ")
+leia(numero3)
+
+
+se( numero1 e numero2 > numero3)
+ escreva (" a soma dos dois maiores numeros sao: ", numero1 + numero2)
+
+ senao se ( numero2 e numero3 > numero1 )
+escreva( "a soma dos dois maiores numeros sao: ", numero2 + numero3)
+
+
+senao se (numero1 e numero3 > numero1 )
+escreva("a soma dois dois maiores numeros sao: ", numero1 + numero3)
+
+
+
+  }
+}
