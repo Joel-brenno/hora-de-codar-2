@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+
+real idade, ano, resultado
+
+escreva("em que ano você nasceu?: " )
+leia ( ano )
+
+
+idade = 2025 - ano
+
+se( idade >= 16)
+
+
+escreva("você pode votar, sua idade é: ", idade)
+
+senao
+escreva("você não pode votar pois ainda é menor de idade, sua idade é ", idade, " *idade minima = 16*")
+
+  }
+}
