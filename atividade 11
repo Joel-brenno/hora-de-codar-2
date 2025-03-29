@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+    
+
+real valor1, valor2 , express
+
+escreva(" digite 1 para adição \n digite 2 para subtração \n digite 3 para multiplicação \n digite 4 para divisão \n: ")
+leia( express)
+
+escreva ( " digite o primeiro valor: ")
+leia (valor1)
+
+escreva( " digite o segundo valor: " )
+leia(valor2)
+
+
+
+se ( express == 1)
+escreva(" o resultado da soma é: ", valor1 + valor2)
+
+se (express == 2)
+escreva( " o resultado da subtração é: ", valor1 - valor2)
+
+se ( express == 3)
+escreva (" o resultado da multiplicação é: ", valor1 * valor2)
+
+se ( express == 4)
+escreva( " o resultado da divisão é: " , valor1 / valor2)
+
+
+
+
+
+  }
+}
